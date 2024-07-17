@@ -1,0 +1,643 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  /* border: 10px solid red; */
+}
+
+/* header  */
+
+header {
+  padding: 26px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: orange;
+  opacity: 0.8;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.burger_menu {
+  display: none;
+  width: 24px;
+}
+
+.fa-xmark {
+  display: none;
+  color: #ffffff;
+  font-size: 32px;
+  width: 24px;
+}
+
+.fa-bars {
+  display: none;
+  width: 24px;
+}
+
+.fa-solid:hover {
+  scale: 1.1;
+  filter: drop-shadow(1px 1px 3px #ffffff);
+}
+
+.header_ul {
+  display: flex;
+  column-gap: 60px;
+}
+
+.header_li:hover {
+  transform: scale(1.2);
+  border-bottom: 2.5px solid #d5906e;
+}
+
+.header_a {
+  color: darkblue;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: medium;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+header .main_title {
+  scale: 0.5;
+}
+
+.main_title {
+  font-size: 50px;
+  color: darkblue;
+}
+
+.header_right_div {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.header_button {
+  color: darkblue;
+  border: none;
+  background: inherit;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.header_button:hover {
+  border: 1px solid darkblue;
+  border-radius: 5px;
+}
+
+.fa-cart-shopping {
+  color: darkblue;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* background image section  */
+
+.background_section {
+  background-image: url(../images/copy-space-surrounded-by-office-supplies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background_section_div {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background_section_title {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 48px;
+  font-size: 40px;
+  color: darkblue;
+}
+
+.background_section_text {
+  margin-top: 16px;
+  margin-bottom: 56px;
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.background_section_button {
+  padding: 12px 45px;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  background: transparent;
+  transition: 0.2s linear;
+  color: darkblue;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.background_section_button:hover {
+  scale: 1.25;
+  -webkit-box-shadow: 1px 1px 2px darkblue, inset 1px 1px 2px darkblue;
+  box-shadow: 1px 1px 2px darkblue, inset 1px 1px 2px darkblue;
+}
+
+/* section2  */
+
+.picture1_div {
+  cursor: pointer;
+}
+
+.images_section2 {
+  width: 100%;
+}
+
+.section2 {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.section2_2_picture {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section2_pictures_text {
+  margin-top: 16px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  color: darkblue;
+  text-align: center;
+}
+
+.picture1_div:hover {
+  scale: 1.05;
+  -webkit-box-shadow: 1px 1px 8px orange, -1px -1px 8px orange;
+  box-shadow: 1px 1px 8px orange, -1px -1px 8px orange;
+  border-radius: 10px;
+}
+
+/* section3  */
+.section3 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background: rgb(0, 89, 144);
+}
+
+.section3_title {
+  margin-bottom: 40px;
+  font-family: "Playwrite ES Deco", cursive;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section3_main_div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section3_div1,
+.section3_div2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+}
+
+.section3_pictures:hover {
+  border-radius: 10px;
+  scale: 1.01;
+  -webkit-box-shadow: 0 0 10px #b6814d;
+  box-shadow: 0 0 10px #b6814d;
+}
+
+.section3_pictures {
+  object-position: top;
+}
+
+/* section4  */
+
+.section4 {
+  padding: 160px 52px;
+}
+
+.section4_title {
+  margin-bottom: 40px;
+  font-family: "Playwrite ES Deco", cursive;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  line-height: 48px;
+  color: #402101;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.section4_images:hover {
+  scale: 1.04;
+}
+
+.section4_price {
+  width: 88px;
+  padding: 15px 17px;
+  position: relative;
+  border-radius: 20px;
+  left: 16px;
+  top: -64px;
+  color: #b53b1b;
+  font-size: 16px;
+  font-family: Inter sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  color: #b53b1b;
+  text-align: center;
+}
+
+/* section6  */
+
+.section6 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  align-items: center;
+}
+
+.section6_title {
+  margin-bottom: 40px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 44px;
+  color: darkblue;
+  text-align: center;
+}
+
+.article_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.article1_and_article2 {
+  display: flex;
+  column-gap: 24px;
+}
+
+.article1,
+.article2,
+.article3 {
+  width: 384px;
+  background: rgb(241, 193, 103);
+  border-radius: 8px;
+}
+
+.article1,
+.article2 {
+  padding: 8px 8px 24px 8px;
+}
+
+.article3 {
+  padding: 8px 8px 48px 8px;
+}
+
+.articles_title {
+  margin-bottom: 16px;
+  font-family: "Ga Maamli", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: darkblue;
+}
+
+.articles_text {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+}
+
+.help_center_div {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.help_center_title {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #402101;
+  text-align: center;
+}
+
+.help_center_button {
+  padding: 12px 52px;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 10px;
+  -webkit-animation: BUTTON2 infinite 2s;
+  animation: BUTTON2 infinite 2s;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.help_center_button:hover {
+  scale: 1.07;
+  -webkit-box-shadow: 0 0 5px #a67468;
+  box-shadow: 0 0 5px #a67468;
+}
+
+@-webkit-keyframes BUTTON2 {
+  0% {
+    color: #ffffff;
+  }
+
+  50% {
+    color: orange;
+  }
+
+  100% {
+    color: #ffffff;
+  }
+}
+
+@keyframes BUTTON2 {
+  0% {
+    color: #ffffff;
+  }
+
+  50% {
+    color: orange;
+  }
+
+  100% {
+    color: #ffffff;
+  }
+}
+
+/* footer  */
+
+footer {
+  padding: 32px 120px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 89, 144);
+}
+
+footer .main_title {
+  color: white;
+}
+
+.help_txt1 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font: italic;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.help_txt2 {
+  margin-bottom: 32px;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font: italic;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.social_icons {
+  display: flex;
+  column-gap: 24px;
+  font-size: 30px;
+}
+
+.social_icons > *:hover {
+  scale: 1.2;
+}
+
+.contact_div {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.active1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.contact_txt {
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* contact background image section */
+
+.contact_background_image_section {
+  height: 720px;
+  background-image: url(../images/graduation.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_form {
+  position: absolute;
+  top: 208px;
+  left: 222px;
+  padding: 24px 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background: rgba(75, 55, 35, 0.73);
+  -webkit-box-shadow: -1px -1px 4px 0px rgba(255, 255, 255, 1);
+  box-shadow: -1px -1px 4px 0px rgba(255, 255, 255, 1);
+}
+
+.contact_form_title {
+  margin-bottom: 40px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.fullname_and_email_form_div {
+  display: flex;
+  column-gap: 60px;
+}
+
+.fullname_and_email {
+  padding: 12px 0 12px 8px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.fullname_and_email::placeholder {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.contact_textarea {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  padding: 8px 0 71px 8px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.contact_textarea::placeholder {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.contact_form_button {
+  width: 147px;
+  padding: 19px 42px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(222, 177, 154);
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.contact_form_button:hover {
+  color: #402101;
+  font-weight: 800;
+  scale: 1.06;
+}
+
+/* contact section  */
+
+.contact_section {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_section_main_div {
+  padding-left: 20px;
+  background-color: rgb(229, 169, 140);
+}
+
+.contact_title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Playwrite RO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: darkblue;
+}
+
+.adress_main_div {
+  display: flex;
+  column-gap: 210px;
+}
+
+.adress_div_titles {
+  margin-bottom: 7px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #b53b1b;
+}
+
+.adress_text {
+  margin-bottom: 32px;
+}
+
+.adress {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  color: #623932;
+}
+
+iframe {
+  width: 815px;
+  height: 320px;
+}
